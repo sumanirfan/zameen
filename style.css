@@ -1,0 +1,559 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    background:rgb(30, 152, 30); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding-right: 15px;
+    padding-left: 15px; height: 40px;display: flex;
+}
+.navdiv{
+    display: flex; align-items: center; align-items: center;
+}
+.house{
+    height: 20px;
+    width: 20px;
+    color: rgb(250, 235, 215);
+    margin-top: 2px;
+    margin-left: 12px;
+ }
+  .nav{
+    margin-left: 30px;
+    text-decoration: none;
+    padding-top: 3px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.barr{
+    background-color: transparent;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid rgb(199, 253, 133);
+    font-weight: bold;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 360px;
+    width: 120px;
+    border-radius: 4px;
+}
+.barr::placeholder {
+    color: white;
+}
+.barr2{
+    height: 25px;
+    margin-top: 7px;
+    border: 2px solid white;
+    font-weight: bold;
+    width: 120px;
+    margin-left: 15px;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.urdu{
+    height: 32px;
+    width: 50px;
+    margin-top: 2px;
+    margin-left: 12px;
+}
+.flag{
+    height: 32px;
+    width: 35px;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.setting{
+    height: 25px;
+    width: 25px;
+    margin-left: 7px;
+}
+.user{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.play{
+    height: 14px;
+    width: 14px;
+    padding-top: 2px;
+}
+
+
+
+
+
+/* secondaynav start */
+
+
+.navarea{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:flex
+}
+.zameenimg{
+    height: 30px;
+   margin-left: 21px;
+   margin-top: 7px;
+}
+.second{
+    margin-left: 32px;
+    font-size: 13px;
+    color: rgb(154, 154, 154);
+    padding-top: 13px;
+    font-style: inherit;
+    font-family: sans-serif;
+}
+
+
+
+
+/* nav bars complete */
+
+
+
+
+/* main section start */
+
+.main{
+    background-image: url(BG.jpg);
+    height: 530px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.h2{
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-top: 130px;
+    font-weight: lighter;
+    font-family: sans-serif;
+  
+}
+.button{
+    display: flex;
+    margin-top: 17px;
+}
+.btn{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.199);
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    padding-right:35px ;
+    width: 110px;
+    color: white;
+    margin-left: 568px;
+    font-family: sans-serif;
+    
+   
+}
+
+.btn2{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.199);
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    padding-right:35px ;
+    width: 110px;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.btn3{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.199);
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    padding-right:25px ;
+    width: 140px;
+    color: white;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.whitegreen{
+    display: flex;
+}
+
+.card{
+    height: 95px;
+    width: 660px;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-left: 430px;
+    margin-top: 27px;
+}
+
+.barr3{
+    height: 50px;
+    margin-top: 11px;
+    border: 2px solid white;
+    font-weight: bold;
+    width: 120px;
+    margin-left: 15px;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+.barr4{
+    height: 50px;
+    margin-top: 11px;
+    border: 2px solid white;
+    font-weight: bold;
+    width: 350px;
+    margin-left: 15px;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+.barr5{
+    height: 50px;
+    margin-top: 11px;
+    /* border: 2px solid white; */
+    font-weight: bold;
+    width: 130px;
+    margin-left: 15px;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: rgb(30, 152, 30);
+}
+.barr5::placeholder {
+    color: white;
+    padding-left: 41PX
+}
+
+
+
+
+/* navcard */
+
+
+
+.navbox{
+    margin-left: 32px;
+    font-size: 10px;
+    color: rgb(83, 60, 252);
+    font-style: inherit;
+    font-family: sans-serif;
+}
+.navbox1{
+    margin-left: 32px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    padding-top: 13px;
+    font-style: inherit;
+    font-family: sans-serif;
+}
+.navigation{
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+/* section browse */
+
+
+
+
+
+
+.section-browse{
+    background-color:white;
+    height: 480px;
+    width: 100%;
+
+}
+.browse-heading{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top:70px ;
+    margin-left: 150px;
+    font-weight: 100;
+    color: rgb(65, 64, 64);
+    
+}
+.browsebox{
+    display: flex;
+}
+.cardbro1{
+ 
+    width: 300px;
+    height: 300px;
+    color: black;
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 240px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.greenicon{
+    height: 25px;
+    width: 25px;
+}
+.h7{
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-top: 3px;
+    color: rgb(96, 96, 96);
+}
+.cardbro2{
+    width: 300px;
+    height: 300px;
+    color: black;
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.cardbro3{
+    width: 300px;
+    height: 300px;
+    color: black;
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.homebox{
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    display: block;
+}
+.buttonbox{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   
+}  
+
+.cardbro1child
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+
+}
+.btn4{
+    color: rgb(84, 84, 84);
+}
+.hrline{
+    width: 100%;
+    margin-top: 20px;
+}
+.minicardarea{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    display: flex;
+    margin: 5px;
+}
+.minicardd{
+    background-color: white;
+    width: 27%;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid rgb(149, 149, 149);
+    margin: 7px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sxplore heading */
+
+
+
+
+.explore-zameen{
+    background-color: white;
+    height: 500px;
+    width: 100%;
+
+}
+.eight-boxes{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 60px;
+    
+}
+.four-boxes{
+    width: 80%;
+    height: 120px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: 10%;
+    display: flex;
+}
+.boxno-one{
+    width: 25%;
+    height: 120px;
+    background-color: white;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 20px;
+    display: flex;
+    padding: 8px;
+    margin-left: 18px;
+}
+.exploreboxes{
+    font-family: sans-serif;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.para{
+    font-size: 15px;
+    color: rgb(171, 171, 171);
+}
+.krainimg{
+    height: 56px;
+    width: 53px;
+    margin: 22px;
+}
+.contructionimg{
+    height: 50px;
+    width: 52px;
+   margin: 20px;
+}
+.calculatorimg{
+    height: 38px;
+    height: 40px;
+   margin: 25px;
+}
+.searchexplore{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.plotfinder{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.barchart{
+    height: 47px;
+    width: 50px;
+    margin: 20px;
+}
+.areaunit{
+    height: 47px;
+    width: 50px;
+    margin: 20px;
+}
+.property{
+    height: 47px;
+    width: 50px;
+    margin: 20px;
+}
+
+
+/* footer section start */
+
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    width: 100%;
+}
+
+li .footnav{
+    display: block;
+}
+.company{
+    font-size: 27px;
+    color: rgb(164, 164, 164);
+    margin-left: 150px;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.footnav{
+    padding-left: 150px;
+    padding-top: 18px;
+    color: rgb(169, 169, 169);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/*  */
+.footerrow2{
+    display: flex;
+}
+.cardfooter{
+    width: 100%;
+    display: flex;
+
+}
+.footimg{
+    height: 15px;
+    width: 15px;
+    margin-right:6px ;
+}
+.bankimg{
+    height: 60px;
+    width: 220px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: rgb(111, 111, 111);
+}
+.socialmain{
+    height: 35px;
+    width: 35px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.social{
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 8px;
+    
+}
